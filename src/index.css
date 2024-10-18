@@ -1,0 +1,19 @@
+@font-face {
+  font-family: Megat, MuseoSansCyrl, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  src: url('./fonts/Megat.otf') format('otf');
+  src: url('./fonts/MuseoSansCyrl300.ttf') format('ttf');
+}
+body {
+  margin: auto;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+header, main {
+  max-width: 1200px;
+  margin: auto;
+}

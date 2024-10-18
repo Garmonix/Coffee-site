@@ -1,0 +1,139 @@
+
+.drinks-section {
+    height: 100vh;
+    background-color: #f4ebe1;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+.drinks-header {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.slider-controls {
+    position: absolute;
+    top: 50px;
+    right: 0; /* Переместим стрелки в правый верхний угол */
+    display: flex;
+    gap: 18px; /* Отступ между стрелками */
+}
+
+.drinks-header h2 {
+    margin-top: 30px;
+    font-family: MuseoSansCyrl, sans-serif;
+    font-size: 48px;
+    color: #70331a;
+}
+
+.arrow-prev,
+.arrow-next {
+    width: 30px;
+    height: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    top: 50%;
+    color: #70331a;
+    display: flex;
+}
+.arrow-prev {
+    left: 0;
+}
+
+.arrow-next{
+    right: 0;
+}
+
+.drinks-section .arrow-prev,
+.drinks-section .arrow-next {
+    max-width: 1200px;
+    top: 90px;
+}
+
+.arrow-next {
+}
+
+.drink-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 484px;
+}
+
+.drink-image {
+    width: 100%;
+    max-width: 324px;
+    max-height: 324px;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.drink-info {
+    display: flex;
+    color: #70331a;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 20px ;
+}
+
+.drink-title {
+    text-align: left;
+    font-family: Museo, sans-serif;
+    font-size: 24px;
+
+}
+
+.drink-volume {
+    font-size: 17px;
+}
+
+.card-button {
+    margin-right: 18px;
+    cursor: pointer;
+    color: #70331a;
+    font-size: 18px;
+    background: #E3A36D;
+    height: 70px;
+    width: 70px;
+    border: none;
+    margin-left: auto; /* Кнопка будет выровнена справа */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-pagination {
+    gap: 20px;
+    position: relative;
+    margin-top: 40px;
+}
+
+.swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    background-color: #E3A36D; /* Белые квадраты */
+    border-radius: 0; /* Сделаем их квадратами */
+    opacity: 1; /* Полная непрозрачность */
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #70331a; /* Цвет активного квадрата */
+}
+
+.swiper-pagination {
+    max-width: 100px; /* 4 квадрата по 15px + отступы по 20px между ними */
+    overflow: hidden;
+}

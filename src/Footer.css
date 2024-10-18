@@ -1,0 +1,33 @@
+.footer {
+    margin: auto;
+    background-color: #F4EBE1;
+    height: 20vh;
+    max-width: 100%;
+}
+
+.footer-info {
+    width: 100%;
+    display: flex; /* Добавляем flexbox для .footer-info */
+    justify-content: space-between; /* Равномерное распределение пространства между элементами */
+    align-items: center; /* Центрируем элементы по вертикали */
+    max-width: 1200px;
+    padding: 0 20px; /* Добавляем отступы для более удобного размещения текста */
+}
+
+.left-text {
+    display: flex; /* Позволяет расположить содержимое по горизонтали */
+    align-items: center; /* Центрируем логотип по вертикали */
+}
+
+.right-text {
+    color: #844303;
+    text-align: right; /* Выравнивание текста вправо */
+}
+
+.touch {
+    font-size: 14px;
+}
+
+.contact {
+    font-size: 18px;
+}
