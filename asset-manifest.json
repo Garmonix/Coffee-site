@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Coffee-site/static/css/main.f3fc000b.css",
+    "main.js": "/Coffee-site/static/js/main.eb37e3d4.js",
+    "static/js/453.ad6eb26e.chunk.js": "/Coffee-site/static/js/453.ad6eb26e.chunk.js",
+    "static/media/forest.png": "/Coffee-site/static/media/forest.535477670124131bd9f1.png",
+    "static/media/Irish.png": "/Coffee-site/static/media/Irish.b4b8e3aa86bf3aec4876.png",
+    "static/media/imagecontact.png": "/Coffee-site/static/media/imagecontact.f89ae3ff8a0353174192.png",
+    "static/media/cartoon.png": "/Coffee-site/static/media/cartoon.088335f56d617de1a9fe.png",
+    "static/media/tower.png": "/Coffee-site/static/media/tower.5e2f33a1e9d3a0a40aa5.png",
+    "static/media/MuseoSansCyrl300.ttf": "/Coffee-site/static/media/MuseoSansCyrl300.f55cbd6c72bf488b5c7f.ttf",
+    "static/media/americano.png": "/Coffee-site/static/media/americano.ffacc13d5f0ca0bdcaa0.png",
+    "static/media/cup.png": "/Coffee-site/static/media/cup.e81d8d03bbe49e706305.png",
+    "static/media/flat-white.png": "/Coffee-site/static/media/flat-white.d1663efc8b65a3bd1f75.png",
+    "static/media/latte.png": "/Coffee-site/static/media/latte.8609eb89d1a1ab225fed.png",
+    "static/media/Megat.otf": "/Coffee-site/static/media/Megat.244efdf5c72e92941ade.otf",
+    "index.html": "/Coffee-site/index.html",
+    "main.f3fc000b.css.map": "/Coffee-site/static/css/main.f3fc000b.css.map",
+    "main.eb37e3d4.js.map": "/Coffee-site/static/js/main.eb37e3d4.js.map",
+    "453.ad6eb26e.chunk.js.map": "/Coffee-site/static/js/453.ad6eb26e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3fc000b.css",
+    "static/js/main.eb37e3d4.js"
+  ]
+}
